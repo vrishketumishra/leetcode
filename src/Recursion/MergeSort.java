@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeSort{
     public static void main() {
-        int[] arr={4,3,2,3,10};
+        int[] arr={4,3,2,3,100};
         arr = Merge(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -48,4 +48,5 @@ public class MergeSort{
         }
         return mix;
     }
+    //we can also do with index rather than using Arrays.copyofRange
 }
